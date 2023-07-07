@@ -1,0 +1,1474 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="./assets/css/layout.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script src="./assets/js/main.js"></script>
+
+</head>
+<body>
+    <header class="header">
+        <div class="group_portal">
+            <div class="inner">
+                <div class="inner_flex">
+                    <div class="logo_area">
+                        <h1><a href="#"><img src="./assets/img/logo.png" alt="인천광역시 로고"></a></h1>
+                        <div class="serch_menu_icon"></div>
+                    </div>
+                    <div class="menu_area">
+                        <ul class="menu_list">
+                            <li class="menu_item"><a href="#">온라인통합예약</a></li>
+                            <li class="menu_item"><a href="#">인천데이터포털</a></li>
+                            <li class="menu_item"><a href="#">정보공개포털</a></li>
+                            <li class="menu_item"><a href="#" class="login">로그인</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="gnb">
+            <div class="inner">
+                <ul class="gnb_list">
+                    <li class="gnb_item"><a href="#">인천소식</a></li>
+                    <li class="gnb_item"><a href="#">소통참여</a></li>
+                    <li class="gnb_item"><a href="#">종합민원</a></li>
+                    <li class="gnb_item"><a href="#">인천소개</a></li>
+                    <li class="gnb_item"><a href="#" class="icon">분야별</a></li>
+                    <li class="gnb_item all_menu"><a href="#">전체메뉴
+                        <span class="move_icon">
+                            <span class="hamberger"></span>
+                        </span></a>
+                    </li>
+                </ul>
+                <div class="login_area">
+                    <a class="link_sign_up">회원가입</a>
+                    <form action="#">
+                        <legend class="blind">언어선택</legend>
+                        <select name="lang" id="lang">
+                            <option value="" selected>Langusge</option>
+                            <option value="">한국어</option>
+                            <option value="">English</option>
+                        </select>
+                        <button class="link_go">GO</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="group_more_menu">
+            <ul class="menu_list">
+                <li class="menu_item active">
+                    <a href="#">
+                        <h2 class="title">인천소식</h2>
+                    </a>
+                    <div class="list_box">
+                        <ul class="sub_list">
+                            <li class="sub_item">
+                                <a href="#">
+                                    <p class="title">새소식</p>
+                                </a>
+                            </li>
+                            <li class="sub_item">
+                                <a href="#">
+                                    <p class="title">주요행사정보</p>
+                                </a>
+                            </li>
+                            <li class="sub_item">
+                                <a href="#">
+                                    <p class="title">보도/해명</p>
+                                </a>
+                                <p class="desc">
+                                    <a href="#"><span class="name">보도자료</span></a>
+                                    <a href="#"><span class="name">바로잡습니다</span></a>
+                                </p>
+                            </li>
+                            <li class="sub_item">
+                                <a href="#">
+                                    <p class="title">고시/공고/시보</p>
+                                </a>
+                                <p class="desc">
+                                    <a href="#"><span class="name icon">고시공고</span></a>
+                                    <a href="#"><span class="name">인천시보</span></a>
+                                    <a href="#"><span class="name">반상회보</span></a>
+                                    <a href="#"><span class="name icon">입법예고</span></a>
+                                </p>
+                            </li>
+                            <li class="sub_item">
+                                <a href="#">
+                                    <p class="title">매체모음</p>
+                                </a>
+                            </li>
+                            <li class="sub_item">
+                                <a href="#">
+                                    <p class="title">카드뉴스</p>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="menu_item">
+                    <a href="#">
+                        <h2 class="title">소통참여</h2>
+                    </a>
+                    <div class="list_box">
+                        <ul class="sub_list">
+                            <li class="sub_item">
+                                <a href="#">
+                                    <p class="title">제안/토론</p>
+                                </a>
+                            </li>
+                            <li class="sub_item">
+                                <a href="#">
+                                    <p class="title">주민참여예산</p>
+                                </a>
+                            </li>
+                            <li class="sub_item">
+                                <a href="#">
+                                    <p class="title">비영리단체</p>
+                                </a>
+                                <p class="desc">
+                                    <a href="#"><span class="name">비영리단체 되기</span></a>
+                                    <a href="#"><span class="name">비영리단체 회원</span></a>
+                                    <a href="#"><span class="name">비영리단체 메뉴 이용 신청</span></a>
+                                    <a href="#"><span class="name">공익활동지원사업</span></a>
+                                    <a href="#"><span class="name">비영리단체 사랑방</span></a>
+                                    <a href="#"><span class="name">자료실</span></a>
+                                </p>
+                            </li>
+                            <li class="sub_item">
+                                <a href="#">
+                                    <p class="title">중간지원조직 네트워크</p>
+                                </a>
+                                <p class="desc">
+                                    <a href="#"><span class="name">네트워크 구성이야기</span></a>
+                                    <a href="#"><span class="name">네트워크 활동이야기</span></a>
+                                    <a href="#"><span class="name">네트워크 협치이야기</span></a>
+                                </p>
+                            </li>
+                            <li class="sub_item">
+                                <a href="#">
+                                    <p class="title">스마트도시 리빙랩</p>
+                                </a>
+                                <p class="desc">
+                                    <a href="#"><span class="name">스마트도시 리빙랩 소개</span></a>
+                                    <a href="#"><span class="name">시민참여계획</span></a>
+                                    <a href="#"><span class="name">시민활동현황</span></a>
+                                    <a href="#"><span class="name">관련자료실</span></a>
+                                </p>
+                            </li>
+                            <li class="sub_item">
+                                <a href="#">
+                                    <p class="title">시민의소리</p>
+                                </a>
+                                <p class="desc">
+                                    <a href="#"><span class="name">자유게시판</span></a>
+                                    <a href="#"><span class="name">칭찬합니다</span></a>
+                                </p>
+                            </li>
+                            <li class="sub_item">
+                                <a href="#">
+                                    <p class="title">설문조사</p>
+                                </a>
+                            </li>
+                            <li class="sub_item">
+                                <a href="#">
+                                    <p class="title">이벤트</p>
+                                </a>
+                            </li>
+                            <li class="sub_item">
+                                <a href="#">
+                                    <p class="title">공모전</p>
+                                </a>
+                            </li>
+                            <li class="sub_item">
+                                <a href="#">
+                                    <p class="title">문자알림서비스</p>
+                                </a>
+                                <p class="desc">
+                                    <a href="#"><span class="name">맞춤형 시정정보</span></a>
+                                    <a href="#"><span class="name">인천알리미</span></a>
+                                    <a href="#"><span class="name">대기환경정보</span></a>
+                                    <a href="#"><span class="name">주정차 위반 단속</span></a>
+                                </p>
+                            </li>
+                            <li class="sub_item">
+                                <a href="#">
+                                    <p class="title">인천愛뜰 사용허가 신청</p>
+                                </a>
+                                <p class="desc">
+                                    <a href="#"><span class="name">인천愛뜰 소개</span></a>
+                                    <a href="#"><span class="name">인천愛뜰 사용허가 절차</span></a>
+                                    <a href="#"><span class="name">인천愛뜰 사용허가 신청</span></a>
+                                    <a href="#"><span class="name">허가조건/유의사항</span></a>
+                                    <a href="#"><span class="name">행사일정</span></a>
+                                </p>
+                            </li>
+                            <li class="sub_item">
+                                <a href="#">
+                                    <p class="title">대학생 아르바이트</p>
+                                </a>
+                            </li>
+                            <li class="sub_item">
+                                <a href="#">
+                                    <p class="title">생생시정견학</p>
+                                </a>
+                            </li>
+                            <li class="sub_item">
+                                <a href="#">
+                                    <p class="title">고향사랑기부제</p>
+                                </a>
+                                <p class="desc">
+                                    <a href="#"><span class="name">제도 취지</span></a>
+                                    <a href="#"><span class="name">인천시 대표 답례품</span></a>
+                                    <a href="#"><span class="name">기금사업</span></a>
+                                    <a href="#"><span class="name">각종 홍보자료</span></a>
+                                    <a href="#"><span class="name">기부방법 및 절차</span></a>
+                                    <a href="#"><span class="name">기부금 접수·운용 현황</span></a>
+                                    <a href="#"><span class="name">자주묻는 질문</span></a>
+                                    <a href="#"><span class="name">제도 관련 건의사항</span></a>
+                                </p>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="menu_item">
+                    <a href="#">
+                        <h2 class="title">종합민원</h2>
+                    </a>
+                    <div class="list_box">
+                        <ul class="sub_list">
+                            <li class="sub_item">
+                                <a href="#">
+                                    <p class="title">새소식</p>
+                                </a>
+                            </li>
+                            <li class="sub_item">
+                                <a href="#">
+                                    <p class="title">주요행사정보</p>
+                                </a>
+                            </li>
+                            <li class="sub_item">
+                                <a href="#">
+                                    <p class="title">보도/해명</p>
+                                </a>
+                                <p class="desc">
+                                    <a href="#"><span class="name">보도자료</span></a>
+                                    <a href="#"><span class="name">바로잡습니다</span></a>
+                                </p>
+                            </li>
+                            <li class="sub_item">
+                                <a href="#">
+                                    <p class="title">고시/공고/시보</p>
+                                </a>
+                                <p class="desc">
+                                    <a href="#"><span class="name icon">고시공고</span></a>
+                                    <a href="#"><span class="name">인천시보</span></a>
+                                    <a href="#"><span class="name">반상회보</span></a>
+                                    <a href="#"><span class="name icon">입법예고</span></a>
+                                </p>
+                            </li>
+                            <li class="sub_item">
+                                <a href="#">
+                                    <p class="title">매체모음</p>
+                                </a>
+                            </li>
+                            <li class="sub_item">
+                                <a href="#">
+                                    <p class="title">카드뉴스</p>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="menu_item">
+                    <a href="#">
+                        <h2 class="title">인천소개</h2>
+                    </a>
+                    <div class="list_box">
+                        <ul class="sub_list">
+                            <li class="sub_item">
+                                <a href="#">
+                                    <p class="title">새소식</p>
+                                </a>
+                            </li>
+                            <li class="sub_item">
+                                <a href="#">
+                                    <p class="title">주요행사정보</p>
+                                </a>
+                            </li>
+                            <li class="sub_item">
+                                <a href="#">
+                                    <p class="title">보도/해명</p>
+                                </a>
+                                <p class="desc">
+                                    <a href="#"><span class="name">보도자료</span></a>
+                                    <a href="#"><span class="name">바로잡습니다</span></a>
+                                </p>
+                            </li>
+                            <li class="sub_item">
+                                <a href="#">
+                                    <p class="title">고시/공고/시보</p>
+                                </a>
+                                <p class="desc">
+                                    <a href="#"><span class="name icon">고시공고</span></a>
+                                    <a href="#"><span class="name">인천시보</span></a>
+                                    <a href="#"><span class="name">반상회보</span></a>
+                                    <a href="#"><span class="name icon">입법예고</span></a>
+                                </p>
+                            </li>
+                            <li class="sub_item">
+                                <a href="#">
+                                    <p class="title">매체모음</p>
+                                </a>
+                            </li>
+                            <li class="sub_item">
+                                <a href="#">
+                                    <p class="title">카드뉴스</p>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="menu_item">
+                    <a href="#">
+                        <h2 class="title">분야</h2>
+                    </a>
+                    <div class="list_box">
+                        <ul class="sub_list">
+                            <li class="sub_item">
+                                <a href="#">
+                                    <p class="title">새소식</p>
+                                </a>
+                            </li>
+                            <li class="sub_item">
+                                <a href="#">
+                                    <p class="title">주요행사정보</p>
+                                </a>
+                            </li>
+                            <li class="sub_item">
+                                <a href="#">
+                                    <p class="title">보도/해명</p>
+                                </a>
+                                <p class="desc">
+                                    <a href="#"><span class="name">보도자료</span></a>
+                                    <a href="#"><span class="name">바로잡습니다</span></a>
+                                </p>
+                            </li>
+                            <li class="sub_item">
+                                <a href="#">
+                                    <p class="title">고시/공고/시보</p>
+                                </a>
+                                <p class="desc">
+                                    <a href="#"><span class="name icon">고시공고</span></a>
+                                    <a href="#"><span class="name">인천시보</span></a>
+                                    <a href="#"><span class="name">반상회보</span></a>
+                                    <a href="#"><span class="name icon">입법예고</span></a>
+                                </p>
+                            </li>
+                            <li class="sub_item">
+                                <a href="#">
+                                    <p class="title">매체모음</p>
+                                </a>
+                            </li>
+                            <li class="sub_item">
+                                <a href="#">
+                                    <p class="title">카드뉴스</p>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </header>
+    <main class="container">
+        <section class="sc_visual">
+            <div class="inner">
+                <h2 class="blind">메인 화면</h2>
+                <div class="inner_flex">
+                    <div class="group_left">
+                        <section class="sc_search">
+                            <h2 class="blind">검색바</h2>
+                            <form action="#">
+                                <legend class="blind">검색바</legend>
+                                <div class="search_box">
+                                    <label for="search" id="search_main"><strong class="bold">인천</strong>의 궁금증은 이곳에</label>
+                                    <input type="text" id="search">
+                                </div>
+                                <ul class="search_list">
+                                    <li class="search_item">
+                                        <a href="#">더 좋아지는 인천생활</a>
+                                    </li>
+                                    <li class="search_item">
+                                        <a href="#">예방접종</a>
+                                    </li>
+                                    <li class="search_item">
+                                        <a href="#">인천지도포털</a>
+                                    </li>
+                                </ul>
+                                <button class="searh_btn">
+                                    <span class="blind">검색</span>
+                                </button>
+                            </form>
+                        </section>
+                        <section class="sc_slide">
+                            <h2 class="blind">주요 알림 슬라이드</h2>
+                            <div class="swiper news_slide">
+                                <div class="swiper-wrapper">
+                                  <div class="swiper-slide">
+                                    <img src="./assets/img/banner/slide1.jpg" alt>
+                                  </div>
+                                  <div class="swiper-slide">
+                                    <img src="./assets/img/banner/slide2.jpg" alt>
+                                  </div>
+                                  <div class="swiper-slide">
+                                    <img src="./assets/img/banner/slide3.jpg" alt>
+                                  </div>
+                                </div>
+                                <div class="slide_btn prev"></div>
+                                <div class="slide_btn next"></div>
+                                <div class="nav_btn_box">
+                                    <div class="nav_btn main active" data-idx="0">
+                                        <strong class="title">주요안내</strong>
+                                    </div>
+                                    <div class="sub_nav">
+                                        <div class="pagination"></div>
+                                        <div class="control_btn pause">
+                                            <button>
+                                                <span class="blind">일시정지</span>
+                                            </button>
+                                            <button>
+                                                <span class="blind">재시작</span>
+                                            </button>
+                                        </div>
+                                    </div>
+                                    <div class="nav_btn citizen" data-idx="2">
+                                        <strong class="title">시민참여</strong>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="all_btn">
+                                <button class="news_all_btn">
+                                    <span class="blind">알림창 전체보기</span>
+                                </button>
+                            </div>
+                        </section>
+                    </div>
+                    <div class="group_right">
+                        <section class="sc_info">
+                            <h2 class="blind">인천 자세히 알아보기</h2>
+                            <div class="group_info">
+                                <div class="temp_area">
+                                    <div class="tmep_box">
+                                        <strong class="bold">16.6℃</strong>
+                                        <span class="name">인천</span>
+                                    </div>
+                                    <div class="dust_box">
+                                        <p class="desc">
+                                            미세먼지<span class="blue_text">(좋음)</span> /
+                                            초미세먼지<span class="blue_text">(좋음)</span>
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="logo_area">
+                                    <img src="./assets/img/sub_logo.jpg" alt="인천의 꿈 대한민국의 미래">
+                                </div>
+                            </div>
+                            <div class="group_sub">
+                                <ul class="sub_list">
+                                    <li class="sub_item">
+                                        <a href="#">
+                                            <img src="./assets/img/menu/sub_list_1.png" alt>
+                                            <p class="desc">청년 자격증 응시료<br>지원금 신청</p>
+                                        </a>
+                                    </li>
+                                    <li class="sub_item">
+                                        <a href="#">
+                                            <img src="./assets/img/menu/sub_list_2.png" alt>
+                                            <p class="desc">코로나-19</p>
+                                        </a>
+                                    </li>
+                                    <li class="sub_item">
+                                        <a href="#">
+                                            <img src="./assets/img/menu/sub_list_3.png" alt>
+                                            <p class="desc">전자책(e-book)</p>
+                                        </a>
+                                    </li>
+                                    <li class="sub_item">
+                                        <a href="#">
+                                            <img src="./assets/img/menu/sub_list_4.png" alt>
+                                            <p class="desc">인천 국민 안전체험관</p>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </section>
+                        <section class="sc_mayor">
+                            <h2 class="bold">인천광역시장 유정복</h2>
+                            <p class="desc">
+                                <strong>시민이 행복한</strong><br>
+                                <strong>세계 초일류도시 인천</strong>을<br>
+                                만들겠습니다
+                            </p>
+                            <ul class="mayor_list">
+                                <li class="mayor_item">
+                                    <a href="#" class="icon">
+                                        시민 시장실
+                                    </a>
+                                </li>
+                                <li class="mayor_item">
+                                    <a href="#">
+                                        공약(매니페스토)
+                                    </a>
+                                </li>
+                                <li class="mayor_item">
+                                    <a href="#">
+                                        시장 메시지
+                                    </a>
+                                </li>
+                            </ul>
+                            <div class="mayor_img">
+                                <img src="./assets/img/mayor_img.png" alt="인천시장 이미지">
+                            </div>
+                        </section>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="sc_lnb">
+            <h2 class="blind">서브메뉴</h2>
+            <ul class="lnb_list">
+                <li class="lnb_item">
+                    <a href="#">
+                        <img src="./assets/img/menu/lnb_icon_1.png" alt>
+                        <p class="title">조직도</p>
+                    </a>
+                </li>
+                <li class="lnb_item">
+                    <a href="#">
+                        <img src="./assets/img/menu/lnb_icon_2.png" alt>
+                        <p class="title">소통·제안</p>
+                    </a>
+                </li>
+                <li class="lnb_item">
+                    <a href="#">
+                        <img src="./assets/img/menu/lnb_icon_3.png" alt>
+                        <p class="title">인천관광</p>
+                    </a>
+                </li>
+                <li class="lnb_item">
+                    <a href="#">
+                        <img src="./assets/img/menu/lnb_icon_4.png" alt>
+                        <p class="title">인천시의회</p>
+                    </a>
+                </li>
+                <li class="lnb_item">
+                    <a href="#">
+                        <img src="./assets/img/menu/lnb_icon_5.png" alt>
+                        <p class="title">시험정보</p>
+                    </a>
+                </li>
+                <li class="lnb_item">
+                    <a href="#">
+                        <img src="./assets/img/menu/lnb_icon_6.png" alt>
+                        <p class="title">민원신청</p>
+                    </a>
+                </li>
+                <li class="lnb_item">
+                    <a href="#">
+                        <img src="./assets/img/menu/lnb_icon_7.png" alt>
+                        <p class="title">스마트도시<br>인천</p>
+                    </a>
+                </li>
+                <li class="lnb_item">
+                    <a href="#">
+                        <img src="./assets/img/menu/lnb_icon_8.png" alt>
+                        <p class="title">일자리포털</p>
+                    </a>
+                </li>
+                <li class="lnb_item">
+                    <a href="#">
+                        <img src="./assets/img/menu/lnb_icon_9.png" alt>
+                        <p class="title">우리집 수돗물</p>
+                    </a>
+                </li>
+                <li class="lnb_item">
+                    <a href="#">
+                        <img src="./assets/img/menu/lnb_icon_10.png" alt>
+                        <p class="title">공직자<br>부조리신고</p>
+                    </a>
+                </li>
+                <li class="lnb_item">
+                    <a href="#">
+                        <img src="./assets/img/menu/lnb_icon_11.png" alt>
+                        <p class="title">지방세<br>납부하기</p>
+                    </a>
+                </li>
+            </ul>
+        </section>
+        <div class="inner">
+            <section class="sc_notice">
+                    <h2 class="blind">새소식</h2>
+                    <div class="inner_flex">
+                        <div class="group_tab">
+                            <ul class="tab_list">
+                                <li class="tab_item active">
+                                    <button>
+                                        <span class="title">새소식</span>
+                                    </button>
+                                    <ul class="con_list">
+                                        <li class="con_item">
+                                            <h3>새소식</h3>
+                                            <ul class="news_list">
+                                                <li class="news_item">
+                                                    <a href="#">
+                                                        <p class="desc">제22회 청소년문화예술FESTVAL 개최 및 참여 모집 안내</p>
+                                                        <span class="date">2023-06-13</span>
+                                                    </a>
+                                                </li>
+                                                <li class="news_item">
+                                                    <a href="#">
+                                                        <p class="desc">「루원시티 도시개발사업」 봉오대로 가정역 부근 보도육교(아치) 설치로 인한 차량통제 안내</p>
+                                                        <span class="date">2023-06-13</span>
+                                                    </a>
+                                                </li>
+                                                <li class="news_item">
+                                                    <a href="#">
+                                                        <p class="desc">제22회 청소년문화예술FESTVAL 개최 및 참여 모집 안내</p>
+                                                        <span class="date">2023-06-13</span>
+                                                    </a>
+                                                </li>
+                                                <li class="news_item">
+                                                    <a href="#">
+                                                        <p class="desc">「루원시티 도시개발사업」 봉오대로 가정역 부근 보도육교(아치) 설치로 인한 차량통제 안내</p>
+                                                        <span class="date">2023-06-13</span>
+                                                    </a>
+                                                </li>
+                                                <li class="news_item">
+                                                    <a href="#">
+                                                        <p class="desc">제22회 청소년문화예술FESTVAL 개최 및 참여 모집 안내</p>
+                                                        <span class="date">2023-06-13</span>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                            <button class="more_btn">
+                                                <span class="blind">더보기</span>
+                                            </button>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="tab_item">
+                                    <button>
+                                        <span class="title">고시공고</span>
+                                    </button>
+                                    <ul class="con_list">
+                                        <li class="con_item">
+                                            <h3>고시공고</h3>
+                                            <ul class="news_list">
+                                                <li class="news_item">
+                                                    <a href="#">
+                                                        <p class="desc">제22회 청소년문화예술FESTVAL 개최 및 참여 모집 안내</p>
+                                                        <span class="date">2023-06-13</span>
+                                                    </a>
+                                                </li>
+                                                <li class="news_item">
+                                                    <a href="#">
+                                                        <p class="desc">「루원시티 도시개발사업」 봉오대로 가정역 부근 보도육교(아치) 설치로 인한 차량통제 안내</p>
+                                                        <span class="date">2023-06-13</span>
+                                                    </a>
+                                                </li>
+                                                <li class="news_item">
+                                                    <a href="#">
+                                                        <p class="desc">제22회 청소년문화예술FESTVAL 개최 및 참여 모집 안내</p>
+                                                        <span class="date">2023-06-13</span>
+                                                    </a>
+                                                </li>
+                                                <li class="news_item">
+                                                    <a href="#">
+                                                        <p class="desc">「루원시티 도시개발사업」 봉오대로 가정역 부근 보도육교(아치) 설치로 인한 차량통제 안내</p>
+                                                        <span class="date">2023-06-13</span>
+                                                    </a>
+                                                </li>
+                                                <li class="news_item">
+                                                    <a href="#">
+                                                        <p class="desc">제22회 청소년문화예술FESTVAL 개최 및 참여 모집 안내</p>
+                                                        <span class="date">2023-06-13</span>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                            <button class="more_btn">
+                                                <span class="blind">더보기</span>
+                                            </button>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="tab_item">
+                                    <button>
+                                        <span class="title">채용공고</span>
+                                    </button>
+                                    <ul class="con_list">
+                                        <li class="con_item">
+                                            <h3>채용공고</h3>
+                                            <ul class="news_list">
+                                                <li class="news_item">
+                                                    <a href="#">
+                                                        <p class="desc">제22회 청소년문화예술FESTVAL 개최 및 참여 모집 안내</p>
+                                                        <span class="date">2023-06-13</span>
+                                                    </a>
+                                                </li>
+                                                <li class="news_item">
+                                                    <a href="#">
+                                                        <p class="desc">「루원시티 도시개발사업」 봉오대로 가정역 부근 보도육교(아치) 설치로 인한 차량통제 안내</p>
+                                                        <span class="date">2023-06-13</span>
+                                                    </a>
+                                                </li>
+                                                <li class="news_item">
+                                                    <a href="#">
+                                                        <p class="desc">제22회 청소년문화예술FESTVAL 개최 및 참여 모집 안내</p>
+                                                        <span class="date">2023-06-13</span>
+                                                    </a>
+                                                </li>
+                                                <li class="news_item">
+                                                    <a href="#">
+                                                        <p class="desc">「루원시티 도시개발사업」 봉오대로 가정역 부근 보도육교(아치) 설치로 인한 차량통제 안내</p>
+                                                        <span class="date">2023-06-13</span>
+                                                    </a>
+                                                </li>
+                                                <li class="news_item">
+                                                    <a href="#">
+                                                        <p class="desc">제22회 청소년문화예술FESTVAL 개최 및 참여 모집 안내</p>
+                                                        <span class="date">2023-06-13</span>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                            <button class="more_btn">
+                                                <span class="blind">더보기</span>
+                                            </button>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="tab_item">
+                                    <button>
+                                        <span class="title">보도자료</span>
+                                    </button>
+                                    <ul class="con_list">
+                                        <li class="con_item">
+                                            <h3>보도자료</h3>
+                                            <ul class="news_list">
+                                                <li class="news_item">
+                                                    <a href="#">
+                                                        <p class="desc">제22회 청소년문화예술FESTVAL 개최 및 참여 모집 안내</p>
+                                                        <span class="date">2023-06-13</span>
+                                                    </a>
+                                                </li>
+                                                <li class="news_item">
+                                                    <a href="#">
+                                                        <p class="desc">「루원시티 도시개발사업」 봉오대로 가정역 부근 보도육교(아치) 설치로 인한 차량통제 안내</p>
+                                                        <span class="date">2023-06-13</span>
+                                                    </a>
+                                                </li>
+                                                <li class="news_item">
+                                                    <a href="#">
+                                                        <p class="desc">제22회 청소년문화예술FESTVAL 개최 및 참여 모집 안내</p>
+                                                        <span class="date">2023-06-13</span>
+                                                    </a>
+                                                </li>
+                                                <li class="news_item">
+                                                    <a href="#">
+                                                        <p class="desc">「루원시티 도시개발사업」 봉오대로 가정역 부근 보도육교(아치) 설치로 인한 차량통제 안내</p>
+                                                        <span class="date">2023-06-13</span>
+                                                    </a>
+                                                </li>
+                                                <li class="news_item">
+                                                    <a href="#">
+                                                        <p class="desc">제22회 청소년문화예술FESTVAL 개최 및 참여 모집 안내</p>
+                                                        <span class="date">2023-06-13</span>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                            <button class="more_btn">
+                                                <span class="blind">더보기</span>
+                                            </button>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="tab_item">
+                                    <button>
+                                        <span class="title">바로잡습니다</span>
+                                    </button>
+                                    <ul class="con_list">
+                                        <li class="con_item">
+                                            <h3>바로잡습니다</h3>
+                                            <ul class="news_list">
+                                                <li class="news_item">
+                                                    <a href="#">
+                                                        <p class="desc">제22회 청소년문화예술FESTVAL 개최 및 참여 모집 안내</p>
+                                                        <span class="date">2023-06-13</span>
+                                                    </a>
+                                                </li>
+                                                <li class="news_item">
+                                                    <a href="#">
+                                                        <p class="desc">「루원시티 도시개발사업」 봉오대로 가정역 부근 보도육교(아치) 설치로 인한 차량통제 안내</p>
+                                                        <span class="date">2023-06-13</span>
+                                                    </a>
+                                                </li>
+                                                <li class="news_item">
+                                                    <a href="#">
+                                                        <p class="desc">제22회 청소년문화예술FESTVAL 개최 및 참여 모집 안내</p>
+                                                        <span class="date">2023-06-13</span>
+                                                    </a>
+                                                </li>
+                                                <li class="news_item">
+                                                    <a href="#">
+                                                        <p class="desc">「루원시티 도시개발사업」 봉오대로 가정역 부근 보도육교(아치) 설치로 인한 차량통제 안내</p>
+                                                        <span class="date">2023-06-13</span>
+                                                    </a>
+                                                </li>
+                                                <li class="news_item">
+                                                    <a href="#">
+                                                        <p class="desc">제22회 청소년문화예술FESTVAL 개최 및 참여 모집 안내</p>
+                                                        <span class="date">2023-06-13</span>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                            <button class="more_btn">
+                                                <span class="blind">더보기</span>
+                                            </button>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="tab_item">
+                                    <button>
+                                        <span class="title">문화행사</span>
+                                    </button>
+                                    <ul class="con_list">
+                                        <li class="con_item">
+                                            <h3>문화행사</h3>
+                                            <ul class="news_list">
+                                                <li class="news_item">
+                                                    <a href="#">
+                                                        <p class="desc">제22회 청소년문화예술FESTVAL 개최 및 참여 모집 안내</p>
+                                                        <span class="date">2023-06-13</span>
+                                                    </a>
+                                                </li>
+                                                <li class="news_item">
+                                                    <a href="#">
+                                                        <p class="desc">「루원시티 도시개발사업」 봉오대로 가정역 부근 보도육교(아치) 설치로 인한 차량통제 안내</p>
+                                                        <span class="date">2023-06-13</span>
+                                                    </a>
+                                                </li>
+                                                <li class="news_item">
+                                                    <a href="#">
+                                                        <p class="desc">제22회 청소년문화예술FESTVAL 개최 및 참여 모집 안내</p>
+                                                        <span class="date">2023-06-13</span>
+                                                    </a>
+                                                </li>
+                                                <li class="news_item">
+                                                    <a href="#">
+                                                        <p class="desc">「루원시티 도시개발사업」 봉오대로 가정역 부근 보도육교(아치) 설치로 인한 차량통제 안내</p>
+                                                        <span class="date">2023-06-13</span>
+                                                    </a>
+                                                </li>
+                                                <li class="news_item">
+                                                    <a href="#">
+                                                        <p class="desc">제22회 청소년문화예술FESTVAL 개최 및 참여 모집 안내</p>
+                                                        <span class="date">2023-06-13</span>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                            <button class="more_btn">
+                                                <span class="blind">더보기</span>
+                                            </button>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="group_category">
+                            <ul class="category_list">
+                                <li class="category_item">
+                                    <a href="#">
+                                        <p class="title">교통·도로</p>
+                                        <img src="./assets/img/menu/category_menu_1.png" alt>
+                                    </a>
+                                </li>
+                                <li class="category_item">
+                                    <a href="#">
+                                        <p class="title">농업·수산·해양</p>
+                                        <img src="./assets/img/menu/category_menu_2.png" alt>
+                                    </a>
+                                </li>
+                                <li class="category_item">
+                                    <a href="#">
+                                        <p class="title">문화·관광</p>
+                                        <img src="./assets/img/menu/category_menu_3.png" alt>
+                                    </a>
+                                </li>
+                                <li class="category_item">
+                                    <a href="#">
+                                        <p class="title">도시·주택·토지</p>
+                                        <img src="./assets/img/menu/category_menu_4.png" alt>
+                                    </a>
+                                </li>
+                                <li class="category_item">
+                                    <a href="#">
+                                        <p class="title">경제·투자</p>
+                                        <img src="./assets/img/menu/category_menu_5.png" alt>
+                                    </a>
+                                </li>
+                                <li class="category_item">
+                                    <a href="#">
+                                        <p class="title">건강·식품·체육</p>
+                                        <img src="./assets/img/menu/category_menu_6.png" alt>
+                                    </a>
+                                </li>
+                                <li class="category_item">
+                                    <a href="#">
+                                        <p class="title">복지</p>
+                                        <img src="./assets/img/menu/category_menu_7.png" alt>
+                                    </a>
+                                </li>
+                                <li class="category_item">
+                                    <a href="#">
+                                        <p class="title">재난·안전</p>
+                                        <img src="./assets/img/menu/category_menu_8.png" alt>
+                                    </a>
+                                </li>
+                                <li class="category_item">
+                                    <a href="#">
+                                        <p class="title">환경</p>
+                                        <img src="./assets/img/menu/category_menu_9.png" alt>
+                                    </a>
+                                </li>
+                                <li class="category_item">
+                                    <a href="#">
+                                        <p class="title">행정·세무·법무</p>
+                                        <img src="./assets/img/menu/category_menu_10.png" alt>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+            </section>
+        </div>
+        <section class="sc_news">
+            <div class="inner">
+                <h2 class="title">함께 만드는 <strong class="bold">인천</strong></h2>
+                <ul class="news_list">
+                    <li class="news_item">
+                        <a href="#">
+                            <div class="img_box">
+                                <img src="./assets/img/banner/new_img_1.jpg" alt="6월은 호국보훈의달, 위대한 헌신 영원히 가슴에, 내 가슴속에도 뜨거운 태극기가 있다, 국가를 위해 희생.공헌하신 분들의 숭고한 정신을 감사의 마음을 담아 기립니다.">
+                                <span class="badge">복지</span>
+                            </div>
+                            <div class="info_box">
+                                <strong class="title">2023년 국가보훈대상자의 알권리 충족을 위한 알기쉬운 보훈안내서 홍보안내</strong>
+                                <p class="desc">
+                                    6월은 호국보훈의 달입니다. 국가를 위해 희생·공헌하신 분들의 숭고한 정신을 감사의 마음을 담아 기립니다. 국가보훈대상자분들께 인천시에서 제공하는 각종 혜택을 쉽고 정확하게 안내하기 위한 '2023년 알기쉬운 보훈안내서'를 홍보하오니, 시민 여러분의 많은 관심 부탁 드립니다. </p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="news_item">
+                        <a href="#">
+                            <div class="img_box">
+                                <img src="./assets/img/banner/new_img_2.jpg" alt="6월은 호국보훈의달, 위대한 헌신 영원히 가슴에, 내 가슴속에도 뜨거운 태극기가 있다, 국가를 위해 희생.공헌하신 분들의 숭고한 정신을 감사의 마음을 담아 기립니다.">
+                                <span class="badge">복지</span>
+                            </div>
+                            <div class="info_box">
+                                <strong class="title">2023년 국가보훈대상자의 알권리 충족을 위한 알기쉬운 보훈안내서 홍보안내</strong>
+                                <p class="desc">
+                                    6월은 호국보훈의 달입니다. 국가를 위해 희생·공헌하신 분들의 숭고한 정신을 감사의 마음을 담아 기립니다. 국가보훈대상자분들께 인천시에서 제공하는 각종 혜택을 쉽고 정확하게 안내하기 위한 '2023년 알기쉬운 보훈안내서'를 홍보하오니, 시민 여러분의 많은 관심 부탁 드립니다. </p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="news_item">
+                        <a href="#">
+                            <div class="img_box">
+                                <img src="./assets/img/banner/new_img_3.jpg" alt="6월은 호국보훈의달, 위대한 헌신 영원히 가슴에, 내 가슴속에도 뜨거운 태극기가 있다, 국가를 위해 희생.공헌하신 분들의 숭고한 정신을 감사의 마음을 담아 기립니다.">
+                                <span class="badge">복지</span>
+                            </div>
+                            <div class="info_box">
+                                <strong class="title">2023년 국가보훈대상자의 알권리 충족을 위한 알기쉬운 보훈안내서 홍보안내</strong>
+                                <p class="desc">
+                                    6월은 호국보훈의 달입니다. 국가를 위해 희생·공헌하신 분들의 숭고한 정신을 감사의 마음을 담아 기립니다. 국가보훈대상자분들께 인천시에서 제공하는 각종 혜택을 쉽고 정확하게 안내하기 위한 '2023년 알기쉬운 보훈안내서'를 홍보하오니, 시민 여러분의 많은 관심 부탁 드립니다. </p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="news_item">
+                        <a href="#">
+                            <div class="img_box">
+                                <img src="./assets/img/banner/new_img_4.jpg" alt="6월은 호국보훈의달, 위대한 헌신 영원히 가슴에, 내 가슴속에도 뜨거운 태극기가 있다, 국가를 위해 희생.공헌하신 분들의 숭고한 정신을 감사의 마음을 담아 기립니다.">
+                                <span class="badge">복지</span>
+                            </div>
+                            <div class="info_box">
+                                <strong class="title">2023년 국가보훈대상자의 알권리 충족을 위한 알기쉬운 보훈안내서 홍보안내</strong>
+                                <p class="desc">
+                                    6월은 호국보훈의 달입니다. 국가를 위해 희생·공헌하신 분들의 숭고한 정신을 감사의 마음을 담아 기립니다. 국가보훈대상자분들께 인천시에서 제공하는 각종 혜택을 쉽고 정확하게 안내하기 위한 '2023년 알기쉬운 보훈안내서'를 홍보하오니, 시민 여러분의 많은 관심 부탁 드립니다. </p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="news_item">
+                        <a href="#">
+                            <div class="img_box">
+                                <img src="./assets/img/banner/new_img_5.jpg" alt="6월은 호국보훈의달, 위대한 헌신 영원히 가슴에, 내 가슴속에도 뜨거운 태극기가 있다, 국가를 위해 희생.공헌하신 분들의 숭고한 정신을 감사의 마음을 담아 기립니다.">
+                                <span class="badge">복지</span>
+                            </div>
+                            <div class="info_box">
+                                <strong class="title">2023년 국가보훈대상자의 알권리 충족을 위한 알기쉬운 보훈안내서 홍보안내</strong>
+                                <p class="desc">
+                                    6월은 호국보훈의 달입니다. 국가를 위해 희생·공헌하신 분들의 숭고한 정신을 감사의 마음을 담아 기립니다. 국가보훈대상자분들께 인천시에서 제공하는 각종 혜택을 쉽고 정확하게 안내하기 위한 '2023년 알기쉬운 보훈안내서'를 홍보하오니, 시민 여러분의 많은 관심 부탁 드립니다. </p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="news_item">
+                        <a href="#">
+                            <div class="img_box">
+                                <img src="./assets/img/banner/new_img_6.jpg" alt="6월은 호국보훈의달, 위대한 헌신 영원히 가슴에, 내 가슴속에도 뜨거운 태극기가 있다, 국가를 위해 희생.공헌하신 분들의 숭고한 정신을 감사의 마음을 담아 기립니다.">
+                                <span class="badge">복지</span>
+                            </div>
+                            <div class="info_box">
+                                <strong class="title">2023년 국가보훈대상자의 알권리 충족을 위한 알기쉬운 보훈안내서 홍보안내</strong>
+                                <p class="desc">
+                                    6월은 호국보훈의 달입니다. 국가를 위해 희생·공헌하신 분들의 숭고한 정신을 감사의 마음을 담아 기립니다. 국가보훈대상자분들께 인천시에서 제공하는 각종 혜택을 쉽고 정확하게 안내하기 위한 '2023년 알기쉬운 보훈안내서'를 홍보하오니, 시민 여러분의 많은 관심 부탁 드립니다. </p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="news_item">
+                        <a href="#">
+                            <div class="img_box">
+                                <img src="./assets/img/banner/new_img_7.jpg" alt="6월은 호국보훈의달, 위대한 헌신 영원히 가슴에, 내 가슴속에도 뜨거운 태극기가 있다, 국가를 위해 희생.공헌하신 분들의 숭고한 정신을 감사의 마음을 담아 기립니다.">
+                                <span class="badge">복지</span>
+                            </div>
+                            <div class="info_box">
+                                <strong class="title">2023년 국가보훈대상자의 알권리 충족을 위한 알기쉬운 보훈안내서 홍보안내</strong>
+                                <p class="desc">
+                                    6월은 호국보훈의 달입니다. 국가를 위해 희생·공헌하신 분들의 숭고한 정신을 감사의 마음을 담아 기립니다. 국가보훈대상자분들께 인천시에서 제공하는 각종 혜택을 쉽고 정확하게 안내하기 위한 '2023년 알기쉬운 보훈안내서'를 홍보하오니, 시민 여러분의 많은 관심 부탁 드립니다. </p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="news_item">
+                        <a href="#">
+                            <div class="img_box">
+                                <img src="./assets/img/banner/new_img_8.jpg" alt="6월은 호국보훈의달, 위대한 헌신 영원히 가슴에, 내 가슴속에도 뜨거운 태극기가 있다, 국가를 위해 희생.공헌하신 분들의 숭고한 정신을 감사의 마음을 담아 기립니다.">
+                                <span class="badge">복지</span>
+                            </div>
+                            <div class="info_box">
+                                <strong class="title">2023년 국가보훈대상자의 알권리 충족을 위한 알기쉬운 보훈안내서 홍보안내</strong>
+                                <p class="desc">
+                                    6월은 호국보훈의 달입니다. 국가를 위해 희생·공헌하신 분들의 숭고한 정신을 감사의 마음을 담아 기립니다. 국가보훈대상자분들께 인천시에서 제공하는 각종 혜택을 쉽고 정확하게 안내하기 위한 '2023년 알기쉬운 보훈안내서'를 홍보하오니, 시민 여러분의 많은 관심 부탁 드립니다. </p>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <div class="inner">
+            <div class="inner_flex media_wrap">
+                <section class="sc_media">
+                    <h2 class="title">인천 <strong class="bold">미디어</strong></h2>
+                    <ul class="media_list">
+                        <li class="media_item">
+                            <a href="#">
+                                <img src="./assets/img/banner/midea_img_1.jpg" alt>
+                            </a>
+                            <p class="desc">인천시 인터넷방송 포토인천</p>
+                        </li>
+                        <li class="media_item">
+                            <a href="#">
+                                <img src="./assets/img/banner/midea_img_2.jpg" alt>
+                            </a>
+                            <p class="desc">인천 i-view 인터넷 신문</p>
+                        </li>
+                        <li class="media_item">
+                            <a href="#">
+                                <img src="./assets/img/banner/midea_img_3.jpg" alt>
+                            </a>
+                            <p class="desc">자원순환 인천 카드뉴스</p>
+                        </li>
+                    </ul>
+                </section>
+                <section class="sc_sns">
+                    <h2 class="title">인천 <strong class="bold">SNS</strong></h2>
+                    <div class="sns_box">
+                        <ul class="sns_list">
+                            <li class="sns_item">
+                                <a href="#" aria-label="인스타그램"></a>
+                            </li>
+                            <li class="sns_item">
+                                <a href="#" aria-label="페이스북"></a>
+                            </li>
+                            <li class="sns_item">
+                                <a href="#" aria-label="유튜브"></a>
+                            </li>
+                            <li class="sns_item">
+                                <a href="#" aria-label="트위터"></a>
+                            </li>
+                            <li class="sns_item">
+                                <a href="#" aria-label="카카오스토리"></a>
+                            </li>
+                            <li class="sns_item">
+                                <a href="#" aria-label="블로그"></a>
+                            </li>
+                            <li class="sns_item">
+                                <a href="#" aria-label="네이버 포스트"></a>
+                            </li>
+                        </ul>
+                    </div>
+                </section>
+            </div>
+        </div>
+        <section class="sc_more_menu">
+            <h2 class="blind">추가 메뉴</h2>
+            <ul class="more_list">
+                <li class="more_item">
+                    <strong class="title">인천광역시 누리집</strong>
+                    <div class="slide_wrap">
+                        <div class="sub_box">
+                            <h3>인천광역시 누리집</h3>
+                            <div class="inner_flex">
+                                <div class="menu_wrap">
+                                    <strong>관련누리집</strong>
+                                    <div class="menu_box col_2">
+                                        <a href="#">
+                                            <span>굿모닝인천</span>
+                                        </a>
+                                        <a href="#">
+                                            <span>시험정보</span>
+                                        </a>
+                                        <a href="#">
+                                            <span>온라인통합예약</span>
+                                        </a>
+                                        <a href="#">
+                                            <span>웹진 MOO</span>
+                                        </a>
+                                        <a href="#">
+                                            <span>인천데이터포털</span>
+                                        </a>
+                                        <a href="#">
+                                            <span>인천도시브랜드</span>
+                                        </a>
+                                        <a href="#">
+                                            <span>인천와이파이</span>
+                                        </a>
+                                        <a href="#">
+                                            <span>인천의 공원</span>
+                                        </a>
+                                        <a href="#">
+                                            <span>인천일자리포털</span>
+                                        </a>
+                                        <a href="#">
+                                            <span>인천국민안전체험관</span>
+                                        </a>
+                                        <a href="#">
+                                            <span>자원순환 선도도시 인천</span>
+                                        </a>
+                                        <a href="#">
+                                            <span>자치법규정보</span>
+                                        </a>
+                                        <a href="#">
+                                            <span>인천청년포털</span>
+                                        </a>
+                                        <a href="#">
+                                            <span>정보공개포털</span>
+                                        </a>
+                                        <a href="#">
+                                            <span>주민참여예산</span>
+                                        </a>
+                                        <a href="#">
+                                            <span>캠프마켓</span>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="menu_wrap">
+                                    <strong>개별 누리집</strong>
+                                    <div class="menu_box col_3">
+                                        <a href="#">
+                                            <span>계약정보공개시스템</span>
+                                        </a>
+                                        <a href="#">
+                                            <span>교통행정 통합민원</span>
+                                        </a>
+                                        <a href="#">
+                                            <span>도시경관 변천기록 아카이브</span>
+                                        </a>
+                                        <a href="#">
+                                            <span>미추홀 주차정보안내시스템</span>
+                                        </a>
+                                        <a href="#">
+                                            <span>부동산정보조회시스템</span>
+                                        </a>
+                                        <a href="#">
+                                            <span>사회적경제</span>
+                                        </a>
+                                        <a href="#">
+                                            <span>스마트인천</span>
+                                        </a>
+                                        <a href="#">
+                                            <span>승용차요일제</span>
+                                        </a>
+                                        <a href="#">
+                                            <span>시민사이버교육센터</span>
+                                        </a>
+                                        <a href="#">
+                                            <span>아이모아카드</span>
+                                        </a>
+                                        <a href="#">
+                                            <span>아트센터 인천</span>
+                                        </a>
+                                        <a href="#">
+                                            <span>인차이나포럼</span>
+                                        </a>
+                                        <a href="#">
+                                            <span>인천디지털시정</span>
+                                        </a>
+                                        <a href="#">
+                                            <span>인천문화포털IQ</span>
+                                        </a>
+                                        <a href="#">
+                                            <span>인천버스정보</span>
+                                        </a>
+                                        <a href="#">
+                                            <span>인천통합전자도서관</span>
+                                        </a>
+                                        <a href="#">
+                                            <span>인천투어</span>
+                                        </a>
+                                        <a href="#">
+                                            <span>인터넷건축행정(세움터)</span>
+                                        </a>
+                                        <a href="#">
+                                            <span>인터넷방송</span>
+                                        </a>
+                                        <a href="#">
+                                            <span>인터넷신문</span>
+                                        </a>
+                                        <a href="#">
+                                            <span>전자책(e-book)</span>
+                                        </a>
+                                        <a href="#">
+                                            <span>전자고지납부시스템</span>
+                                        </a>
+                                        <a href="#">
+                                            <span>중소기업 맞춤형 원스톱 지원</span>
+                                        </a>
+                                        <a href="#">
+                                            <span>지도포털</span>
+                                        </a>
+                                        <a href="#">
+                                            <span>추정분담금정보시스템</span>
+                                        </a>
+                                        <a href="#">
+                                            <span>환경정보공개시스템</span>
+                                        </a>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="more_item">
+                    <strong class="title">직속기관/사업소</strong>
+                    <div class="slide_wrap">
+                        <div class="sub_box">
+                            <h3>직속기관/사업소</h3>
+                            <div class="menu_wrap">
+                                <div class="menu_box col_5">
+                                    <a href="#">
+                                        <span>경제자유구역청</span>
+                                    </a>
+                                    <a href="#">
+                                        <span>남촌농축산물도매시장관리사무소</span>
+                                    </a>
+                                    <a href="#">
+                                        <span>농업기술센터</span>
+                                    </a>
+                                    <a href="#">
+                                        <span>문화예술회관</span>
+                                    </a>
+                                    <a href="#">
+                                        <span>보건환경연구원</span>
+                                    </a>
+                                    <a href="#">
+                                        <span>삼산농산물도매시장관리사무소</span>
+                                    </a>
+                                    <a href="#">
+                                        <span>상수도사업본부</span>
+                                    </a>
+                                    <a href="#">
+                                        <span>서부여성회관</span>
+                                    </a>
+                                    <a href="#">
+                                        <span>소방학교</span>
+                                    </a>
+                                    <a href="#">
+                                        <span>수산기술지원센터</span>
+                                    </a>
+                                    <a href="#">
+                                        <span>수산자원연구소</span>
+                                    </a>
+                                    <a href="#">
+                                        <span>여성복지관</span>
+                                    </a>
+                                    <a href="#">
+                                        <span>여성의광장</span>
+                                    </a>
+                                    <a href="#">
+                                        <span>인재개발원</span>
+                                    </a>
+                                    <a href="#">
+                                        <span>인천광역시립박물관</span>
+                                    </a>
+                                    <a href="#">
+                                        <span>인천자치경찰위원회</span>
+                                    </a>
+                                    <a href="#">
+                                        <span>종합건설본부</span>
+                                    </a>
+                                    <a href="#">
+                                        <span>중앙협력본부</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="more_item">
+                    <strong class="title">자치군‧구</strong>
+                    <div class="slide_wrap">
+                        <div class="sub_box">
+                            <h3>자치군‧구</h3>
+                            <div class="menu_wrap">
+                                <div class="menu_box col_5">
+                                    <a href="#">
+                                        <span>경제자유구역청</span>
+                                    </a>
+                                    <a href="#">
+                                        <span>남촌농축산물도매시장관리사무소</span>
+                                    </a>
+                                    <a href="#">
+                                        <span>농업기술센터</span>
+                                    </a>
+                                    <a href="#">
+                                        <span>문화예술회관</span>
+                                    </a>
+                                    <a href="#">
+                                        <span>보건환경연구원</span>
+                                    </a>
+                                    <a href="#">
+                                        <span>삼산농산물도매시장관리사무소</span>
+                                    </a>
+                                    <a href="#">
+                                        <span>상수도사업본부</span>
+                                    </a>
+                                    <a href="#">
+                                        <span>서부여성회관</span>
+                                    </a>
+                                    <a href="#">
+                                        <span>소방학교</span>
+                                    </a>
+                                    <a href="#">
+                                        <span>수산기술지원센터</span>
+                                    </a>
+                                    <a href="#">
+                                        <span>수산자원연구소</span>
+                                    </a>
+                                    <a href="#">
+                                        <span>여성복지관</span>
+                                    </a>
+                                    <a href="#">
+                                        <span>여성의광장</span>
+                                    </a>
+                                    <a href="#">
+                                        <span>인재개발원</span>
+                                    </a>
+                                    <a href="#">
+                                        <span>인천광역시립박물관</span>
+                                    </a>
+                                    <a href="#">
+                                        <span>인천자치경찰위원회</span>
+                                    </a>
+                                    <a href="#">
+                                        <span>종합건설본부</span>
+                                    </a>
+                                    <a href="#">
+                                        <span>중앙협력본부</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="more_item">
+                    <a href="#" aria-label="정부/지자체 링크, 하위메뉴 없음">
+                        <strong class="title">정부/지자체</strong>
+                    </a>
+                </li>
+            </ul>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="inner">
+            <div class="group_info">
+                <div class="inner_flex">
+                    <div class="left">
+                        <h2>
+                            <a href="#">
+                                <img src="./assets/img/footer_logo.png" alt="인천광역시 로고">
+                            </a>
+                        </h2>
+                        <ul class="f_menu_list">
+                            <li class="f_menu_item">
+                                <a href="#">누리집 이용안내</a>
+                            </li>
+                            <li class="f_menu_item">
+                                <a href="#"><strong class="bold">개인정보처리방침</strong></a>
+                            </li>
+                            <li class="f_menu_item">
+                                <a href="#">저작권정책</a>
+                            </li>
+                            <li class="f_menu_item">
+                                <a href="#">이메일무단수집거부</a>
+                            </li>
+                            <li class="f_menu_item">
+                                <a href="#">누리집 안내지도</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="right">
+                        <ul class="f_img_list">
+                            <li class="f_img_item">
+                                <a href="#">
+                                    <img src="./assets/img/banner/footer_list_1.png" alt="국가상징 알아보기">
+                                </a>
+                            </li>
+                            <li class="f_img_item">
+                                <a href="#">
+                                    <img src="./assets/img/banner/footer_list_2.png" alt="120 궁금할땐 언제나 미추홀콜센터">
+                                </a>
+                            </li>
+                            <li class="f_img_item">
+                                <a href="#">
+                                    <img src="./assets/img/banner/footer_list_3.png" alt="접근성 인증마크">
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="group_address">
+                <div class="inner_flex">
+                    <p class="desc">21554 인천광역시 남동구 정각로 29(구월동) TEL:(032)120</p>
+                    <address>© Incheon Metropolitan City. All rights reserved.</address>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

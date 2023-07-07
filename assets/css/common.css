@@ -1,0 +1,28 @@
+.blind{
+    position: absolute;   
+    width: 1px;height: 1px;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+    margin: -1px;
+}
+.inner {
+    display: block;
+    position: relative;
+    width: 100%;
+    max-width: 1172px;
+    margin: 0 auto;
+}
+
+.inner_flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.container h2 strong {
+    color: #1c236c;
+    font-weight: bold;
+}
