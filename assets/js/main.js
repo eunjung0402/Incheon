@@ -1,5 +1,5 @@
 $(function(){
-    var mainSlide = new Swiper(".news_slide", {
+    const mainSlide = new Swiper(".news_slide", {
       autoplay:{
         delay: 4000,
         disableOnInteraction : false,   // 스와이프 후 자동재생 비활성 되지 않음
@@ -18,7 +18,7 @@ $(function(){
       });
 
       // 상단 메인 슬라이드 일시정지 이벤트
-  var sw=0;
+  let sw=0;
   $('.sc_visual .control_btn').click(function(){
     if(sw==0){
       $(this).removeClass('pause');
@@ -36,7 +36,6 @@ $(function(){
   $('.sc_visual .nav_btn').click(function(){
 
     idx = $(this).data('idx');
-    console.log(idx);
     $(this).addClass('active').siblings().removeClass('active');
     mainSlide.slideToLoop(idx);
 
